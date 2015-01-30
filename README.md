@@ -5,6 +5,6 @@
 <body>
 <h1>Hello World</h1>
 <p>探索中！</p>
-<input type="text"/>
+<input type="text" value="仍然需要前进！"/>
 </body>
 </html>
