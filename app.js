@@ -71,5 +71,5 @@ app.use('/api/advertisement',ad_api);
 app.use('/alipay',dopay);
 app.use('/api/postage',postage_api);
 app.use('/api/limitbuy',limitbuy_api);
-app.listen(3333);
-console.log('Mobile test has been listen by 6666..');
+app.listen(3000);
+console.log('Mobile test has been listen by 3000..');
