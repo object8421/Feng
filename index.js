@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>掌上品微商城</title>
+    <title>标题</title>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -41,7 +41,7 @@
 
 <div id="content">
 
-<div title='掌上品商城' id="main" class="panel" selected="true">
+<div title='标题' id="main" class="panel" selected="true">
     <header>
         <div style="display:none"><img src="img/fenlei.png" class="fenlei" onclick="af.ui.toggleSideMenu()" /></div>
         <img class="logo" src="img/top-logo.png" width="74"/><span><img src="img/top-slong.png" width="155" style="margin-top: 12px;" /></span>
@@ -86,12 +86,12 @@
         <img onclick="af.ui.toggleAsideMenu()" class="search" width="24" src="img/top-search.png" />
     </header>
     <div id="notice_wrap">
-        <!--<h1 id="notice_h1">掌上品供应链优化升级公告</h1>
+        <!--<h1 id="notice_h1">公告</h1>
         <span>尊敬的用户朋友们：</span>
         <p class="notice_wrap_p1">感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴感谢朋友们一路的支持与陪伴。</p>
         <p class="notice_wrap_p1">谢谢谢谢谢谢谢谢谢谢谢谢谢谢谢谢！</p>
         <img src="img/banner2.jpg" alt="">
-        <p class="notice_wrap_p2">广东省掌上品互联网有限公司</p>
+        <p class="notice_wrap_p2">公司</p>
         <p class="notice_wrap_p2">2015年4月22日</p>-->
     </div>
     
@@ -303,10 +303,6 @@
             <li><a onclick="toAddress()">暂无收货地址</a></li>
         </ul>
         <ul id="defaultAddress" class="list">
-            <!--<li>
-            <a  onclick="toAddress()">
-            <div class="defaultAddressContent">收货人：<span>黄胜</span> <b>13750025000</b><p>广东省 珠海市 香洲区 香悦路 香悦路 香悦路 香悦路 香悦路 香悦路 香悦路</p></div>
-            </a></li>-->
         </ul>
     </div>
     <div class="shoppingList">
