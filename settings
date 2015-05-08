@@ -1,0 +1,6 @@
+module.exports = {
+    root : __dirname
+    ,cookieSecret  : 'feng'
+    ,CRMSERVICE_URL : 'http://112.84.178.42:85/crmservice.asmx?wsdl'
+    ,CRMSERVICE_WSDL2 :'http://112.84.178.42:85/V2.0/obdservice.asmx?wsdl'
+}
