@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%=title%></title>
+    <script src="/js/jquery-1.11.1.js"></script>
+    <style>
+    li{list-style:none;margin-bottom: 10px;}
+    li input{margin-left:6px;}
+    #btn{margin-left: 42px;}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <ul>
+            <li>订单号:<input type="text" id="orderNum" value="028718802"></li>
+            <li>订单名:<input type="text" id="orderName" value="微信订单"></li>
+            <li>总&nbsp;&nbsp;价:<input type="text" id="total" value="0.1"></li>
+        </ul>
+        <input type="button" id="btn" value="提交">
+    </div>
+    <script>
+        $(function(){
+            $('#btn').on('click',function(){
+                var data = {};
+                data.option = 'pay';
+                data.orderNum = $('#orderNum').val();
+                data.orderName = $('#orderName').val();
+                data.total = $('#total').val();
+                data = JSON.stringify(data);
+                console.log(data);
+                $.ajax({
+                    type:'POST',
+                    url :'/api/wechatpay',
+                    contentType: "application/json",
+                    data : data,
+                    cache : false,
+                    async : false,
+                    success : function(data){
+                    	alert("!!!!!");
+                        //$('html').html(data)
+                    }
+                })
+            })
+        })
+    </script>
+</body>
+</html>
